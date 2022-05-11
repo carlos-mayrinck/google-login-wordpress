@@ -1,0 +1,22 @@
+{
+  "name": "carlos-mayrinck/mytheme",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Carlos Mayrinck",
+      "email": "carlosmayrinck1@gmail.com"
+    }
+  ],
+  "require": {
+    "google/apiclient": "^2.12"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  }
+}

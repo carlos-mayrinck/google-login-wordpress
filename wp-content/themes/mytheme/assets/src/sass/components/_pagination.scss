@@ -1,0 +1,14 @@
+.pagination-container {
+  max-width: 720px;
+  margin: 1rem auto;
+  
+  a {
+    display: inline-block;
+    font-size: 1.15rem;
+    font-weight: 600;
+
+    & + a{
+      margin-left: 1.5rem;
+    }
+  }
+}
